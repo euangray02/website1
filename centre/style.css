@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* GLOBAL STYLES */
+
+     * {
+       box-sizing: border-box;
+       }
+
+
+
+   /* Each item in the grid contains numbers */
+   .item {
+   /* Center the contents of the grid items. Making each grid item a Flex Container */
+   display: flex;
+
+   /* Horizontal and Vertical centering */
+   justify-content: center;
+   align-items: center;
+
+   }
